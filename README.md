@@ -9,5 +9,12 @@
 
 <h2>Langkah langkah penginstalan project</h2>
 <ol>
-    <li>Clone project = git clone</li>
+    <li>Clone project = git clone https://github.com/massiki/laravel-konsultasi-kesehatan.git</li>
+    <li>Masuk kedirectory project = cd konsultasi_kesehatan</li>
+    <li>Install PHP dependencies = composer install</li>
+    <li>Mengcopy file .env.example dan mengubahnya menjadi .env = cp .env.example .env</li>
+    <li>Generaty application key = php artisan key:generate</li>
+    <li>Sebelum melakukan migrate configurasi dulu file .env</li>
+    <li>Menjalankan databases migrations = php artisan migrate --seed</li>
+    <li>Jalankan server =  php artisan serve</li>
 </ol>
