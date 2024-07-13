@@ -6,3 +6,8 @@
     <li>PHP (version 8.2 or higher)</li>
     <li>Composer <a href="https://getcomposer.org">https://getcomposer.org</a> </li>
 </ol>
+
+<h2>Langkah langkah penginstalan project</h2>
+<ol>
+    <li>Clone project = git clone</li>
+</ol>
